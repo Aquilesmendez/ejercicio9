@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="150dp"
-    >
+    android:layout_marginTop="150dp">
 
     <androidx.cardview.widget.CardView
-
         android:id="@+id/kaido"
         android:layout_width="0dp"
         android:layout_height="150dp"
@@ -18,14 +16,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/luffy">
 
-       <ImageView
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:src="@mipmap/ic_kaido"
-           android:scaleType="centerCrop"
-
-
-           />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_kaido"
+            android:scaleType="centerCrop" />
 
     </androidx.cardview.widget.CardView>
 
@@ -45,9 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/luffy"
-            android:scaleType="centerCrop"
-
-            />
+            android:scaleType="centerCrop" />
 
     </androidx.cardview.widget.CardView>
 
@@ -67,9 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/zoro"
-            android:scaleType="centerCrop"
-
-            />
+            android:scaleType="centerCrop" />
 
     </androidx.cardview.widget.CardView>
 
@@ -89,10 +80,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/sanji"
-            android:scaleType="centerCrop"
-
-            />
+            android:scaleType="centerCrop" />
 
     </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        app:layout_constraintTop_toBottomOf="@+id/image4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
